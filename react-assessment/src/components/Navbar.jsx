@@ -6,7 +6,7 @@ const Navbar = ({ profile, toggleSidebar }) => {
 	const navigate = useNavigate();
 
 	return (
-		<div className="w-full bg-white p-4 border border-gray-300 flex justify-between items-center fixed top-0 left-0 z-50 lg:pe-20">
+		<div className="w-full bg-white p-4 flex justify-between items-center fixed top-0 left-0 z-50 lg:pe-20">
 			<h2 className="text-xl font-bold text-[#789F08] hidden lg:flex">
 				<i>REWARDIFY</i>
 			</h2>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --green-start: #668D12;
+    --green-end: #ACC43F;
+  }
+  
+  
+  .btn-green-gradient-text {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-weight: 600;
+    background: none;
+    border: 1px solid var(--green-start); /* Solid green border */
+  }
+  
+  /* Gradient Text */
+  .btn-green-gradient-text span {
+    background: linear-gradient(to right, var(--green-start), var(--green-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+.bg-m-gray{
+  background-color: #F2F8DF;
+}
+
+.text-green{
+  color: var(--green-start);
+}
+
+.bg-green{
+  background-color: var(--green-start);
+}
